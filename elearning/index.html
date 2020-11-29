@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <!-- Fonts awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+
+    <!-- Header -->
+    <header>
+        <nav class="myNavbar navbar navbar-expand-lg navbar-light">
+            <div class="col-7 myNavbar__col">
+                <div class="myNavbar__left">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo-coral.svg" alt="logo">
+                    </a>
+                    <div class="myNavbar__categories">
+                        <i class="fa fa-th"></i>
+                        <span>Catogories</span>
+                    </div>
+                    <form class="myNavbar__form-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for courses">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="myNavbar__right">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Udemy for Business</a>
+                            <div class="overlay">
+                                <p>Get your team access to Udemy's top 2,500 courses anytime, anywhere.</p>
+                                <a href="#">Try Udemy For Business</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Become an Instructor</a>
+                            <div class="overlay">
+                                <p>Get your team access to Udemy's top 2,500 courses anytime, anywhere.</p>
+                                <a href="#">Try Udemy For Business</a>
+                            </div>
+                        </li>
+                        <li class="nav-item myNavbar__cart">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item myNavbar__button">
+                            <button class="button button--white">Login</button>
+                            <button class="button button--red">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cover -->
+    <section class="cover">
+        <div class="cover__content">
+            <h1>Learn on your schedule</h1>
+            <p>Study any topic, anytime. Explore thousands of courses for as low as $19.99</p>
+            <form class="cover__form">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="What do you want to learn?">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro">
+        <div class="intro__content">
+            <div class="row">
+                <div class="col-4">
+                    <div class="intro__item">
+                        <div class="intro__icon">
+                            <i class="fa fa-bullseye"></i>
+                        </div>
+                        <div class="intro__detail">
+                            <p>80,000 online courses</p>
+                            <p>Explore a variety of fresh topic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="intro__item">
+                        <div class="intro__icon">
+                            <i class="fa fa-spinner"></i>
+                        </div>
+                        <div class="intro__detail">
+                            <p>Expert instruction</p>
+                            <p>Find the right instructor for you</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="intro__item">
+                        <div class="intro__icon">
+                            <i class="fa fa-sync-alt"></i>
+                        </div>
+                        <div class="intro__detail">
+                            <p>Lifetime access</p>
+                            <p>Learn on your schedule</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section class="courses">
+        <div class="courses__content">
+            <div class="row">
+                <div class="col-4 courses__left">
+                    <div>
+                        <h2>The world's largest selection of courses</h2>
+                        <p>Choose from over 80,000 online video courses with new addition published every month</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="dev-tab" data-toggle="tab" href="#dev" role="tab">Development</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab">Design</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="business-tab" data-toggle="tab" href="#business" role="tab">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="it-tab" data-toggle="tab" href="#it" role="tab">IT</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="personal-tab" data-toggle="tab" href="#personal" role="tab">Personal</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="marketing-tab" data-toggle="tab" href="#marketing" role="tab">Marketing</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="photography-tab" data-toggle="tab" href="#photography" role="tab">Photography</a>
+                          </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="dev" role="tabpanel">
+                            <div class="owl-carousel owl-theme courses__carousel">
+                                <div class="card">
+                                    <img class="card-img-top" src="./img/kh1.jpg" alt="KhoaHoc1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Ultimate MySQL bootcamp: Go from SQL Beginner to Expert</h5>
+                                        <p class="card-text">Colt Steele Ian Schoonover</p>
+                                        <div class="card__stars">
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span class="card__rate">4.6</span>
+                                            <span class="card__total">(11.597)</span>
+                                       </div>
+                                        <div class="card__price">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="./img/kh2.jpg" alt="KhoaHoc2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Ultimate MySQL bootcamp: Go from SQL Beginner to Expert</h5>
+                                        <p class="card-text">Colt Steele Ian Schoonover</p>
+                                        <div class="card__stars">
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span class="card__rate">4.6</span>
+                                            <span class="card__total">(11.597)</span>
+                                       </div>
+                                        <div class="card__price">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="./img/kh3.jpg" alt="KhoaHoc3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MySQL bootcamp: Go from SQL Beginner to Expert</h5>
+                                        <p class="card-text">Schoonover</p>
+                                        <div class="card__stars">
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span class="card__rate">4.6</span>
+                                            <span class="card__total">(11.597)</span>
+                                       </div>
+                                        <div class="card__price">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="./img/kh4.jpg" alt="KhoaHoc4">
+                                    <div class="card-body">
+                                         <h5 class="card-title">The Ultimate MySQL bootcamp: Go from SQL Beginner to Expert</h5>
+                                        <p class="card-text">Steele Schoonover</p>
+                                        <div class="card__stars">
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span class="card__rate">4.6</span>
+                                            <span class="card__total">(11.597)</span>
+                                        </div>
+                                        <div class="card__price">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="./img/kh5.jpg" alt="KhoaHoc5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Ultimate MySQL bootcamp: Go from SQL Beginner to Expert</h5>
+                                        <p class="card-text">Jonas</p>
+                                        <div class="card__stars">
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span class="card__rate">4.6</span>
+                                            <span class="card__total">(11.597)</span>
+                                       </div>
+                                        <div class="card__price">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="design" role="tabpanel">Desgin</div>
+                        <div class="tab-pane fade" id="business" role="tabpanel">Business</div>
+                        <div class="tab-pane fade" id="it" role="tabpanel">IT</div>
+                        <div class="tab-pane fade" id="personal" role="tabpanel">Personal</div>
+                        <div class="tab-pane fade" id="marketing" role="tabpanel">Marketing</div>
+                        <div class="tab-pane fade" id="photography" role="tabpanel">Photography</div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Owl JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.courses__carousel').owlCarousel({
+            loop:true,
+            margin: 13,
+            nav:true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+    </script>
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
