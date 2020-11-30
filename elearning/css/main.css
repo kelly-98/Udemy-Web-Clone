@@ -17,6 +17,10 @@ body {
   background-color: color-white-0;
 }
 
+.owl-carousel .owl-nav button:focus {
+  outline: none;
+}
+
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
   color: #007791;
   background-color: #fff;
@@ -31,6 +35,11 @@ body {
 
 .owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span {
   line-height: 44px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: #fff;
+  color: #007791;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -195,6 +204,71 @@ body {
   background-color: transparent;
 }
 
+footer {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+footer .footer__top {
+  width: 90%;
+  margin: 40px auto;
+}
+
+footer .footer__top ul {
+  height: 140px;
+}
+
+footer .footer__top ul .nav-item {
+  flex-basis: 25%;
+}
+
+footer .footer__top ul .nav-item .nav-link {
+  display: inline-block;
+  color: #007791;
+}
+
+footer .footer__top ul .nav-item .nav-link.bold {
+  font-weight: 700;
+}
+
+footer .footer__top .btn-group {
+  display: block;
+}
+
+footer .footer__top .btn-group .button--dropup {
+  min-width: 150px;
+  box-shadow: none;
+}
+
+footer .footer__top .btn-group .button--dropup i {
+  padding: 0 5px;
+}
+
+footer .footer__top .btn-group .button--dropup::after {
+  margin-left: 20%;
+}
+
+footer .footer__top .btn-group .dropdown-menu {
+  font-size: 13px;
+}
+
+footer .footer__bottom {
+  width: 90%;
+  margin: 30px auto;
+}
+
+footer .footer__bottom img {
+  width: 110px;
+  margin-right: 10px;
+}
+
+footer .footer__bottom .nav-link {
+  color: #007791;
+  font-size: 13px;
+  font-weight: normal;
+}
+
 .intro {
   background: linear-gradient(-45deg, #ec5252, #6e1a52);
   padding: 20px;
@@ -241,6 +315,11 @@ body {
   margin: auto;
 }
 
+.courses .courses__content .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .courses .courses__content .courses__left {
   background-color: rgba(20, 23, 28, 0.05);
   padding: 0 2rem;
@@ -276,6 +355,121 @@ body {
   border-bottom: 5px solid #007791;
 }
 
+.viewing {
+  padding: 22px 0;
+}
+
+.viewing .viewing__content {
+  width: 90%;
+  margin: auto;
+}
+
+.viewing .viewing__content h2 {
+  font-size: 20px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 330px;
+  background: url(../img/udemy-logo-semi-transparent.svg) 0/25% no-repeat, linear-gradient(61deg, #6e1a52, #76c5d6 41%);
+  background-blend-mode: overlay;
+  text-align: center;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.banner p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.banner button {
+  margin: 10px 0;
+}
+
+.categories {
+  margin-top: 32px;
+}
+
+.categories .categories__content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.categories .categories__content h2 {
+  font-size: 24px;
+}
+
+.categories .categories__content .categories__item {
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid rgba(20, 23, 28, 0.1);
+  margin-bottom: 15px;
+}
+
+.categories .categories__content .categories__item:hover {
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+}
+
+.students {
+  padding: 32px 0;
+}
+
+.students .students__content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.students .students__content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.partners {
+  background-color: #F7F8FA;
+  padding: 20px 0;
+}
+
+.partners .partners__content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.partners .partners__content .partners__text {
+  text-align: center;
+}
+
+.partners .partners__content .partners__imgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs {
+  background-color: #F7F8FA;
+}
+
+.jobs .jobs__content .row {
+  padding: 10px 0;
+}
+
+.jobs .jobs__content .jobs__items {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.jobs .jobs__content .jobs__items h2 {
+  color: #505763;
+  font-size: 19px;
+  font-weight: 600;
+}
+
 .button--white {
   color: #686f7a;
   background-color: #fff;
@@ -306,6 +500,22 @@ body {
   color: #fff;
   background-color: #521822;
   border-color: #521822;
+}
+
+.button--dropup {
+  color: #686f7a;
+  background-color: #fff;
+  border: 1px solid #505763;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.button--dropup:hover {
+  color: #29303b;
+  background-color: transparent;
+  border-color: #29303b;
 }
 
 .cover {
@@ -436,5 +646,38 @@ body {
   color: #29303b;
   font-size: 15px;
   font-weight: 600;
+}
+
+.card--feedback {
+  height: 330px;
+}
+
+.card--feedback .card-body {
+  padding: 2rem;
+}
+
+.card--feedback .card-body .card__top {
+  display: flex;
+  margin-bottom: 20px -5;
+}
+
+.card--feedback .card-body .card__top .card__avatar {
+  margin-right: 15px;
+}
+
+.card--feedback .card-body .card__top .card__avatar img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.card--feedback .card-body .card__top .card__name {
+  margin-bottom: 0;
+}
+
+.card--feedback .card-body .card-text {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: normal;
 }
 /*# sourceMappingURL=main.css.map */

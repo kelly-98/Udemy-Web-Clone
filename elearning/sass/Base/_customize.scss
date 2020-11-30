@@ -1,6 +1,9 @@
 .owl-carousel{
     .owl-nav{
         button{
+            &:focus{
+                outline: none;
+            }
             &.owl-next, &.owl-prev{
                 color: $color-blue-0;
                 background-color: $color-white-0;
@@ -14,6 +17,10 @@
                 span{
                     line-height: 44px;
                 }
+                &:hover{
+                    background-color: $color-white-0;
+                    color: $color-blue-0;
+                }
             }
             &.owl-prev{
                 left: -30px;
@@ -22,5 +29,6 @@
                 right: -30px;
             }
         }
+        
     }
 }
